@@ -60,6 +60,7 @@
             }
         }
 
+        //gets maps with the most characters
         static List<string> getMapCharacters(List<Info> data)
         {
             List<string> maps = new List<string>();
@@ -82,6 +83,7 @@
             return m;
         }
 
+        //puts id and data in dictionary and prints
         static void createDictionary(List<Info> data)
         {
             Dictionary<int, Info> gameDictionary = new Dictionary<int, Info>();
@@ -100,6 +102,7 @@
             }
         }
 
+        //gets maps with z
         static void printZ(List<Info> data)
         {
             List<String> maps = new List<String>();
